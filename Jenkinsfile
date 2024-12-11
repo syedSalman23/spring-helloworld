@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/syedimran18/spring-helloworld', //branch: 'master'
+                git url: 'https://github.com/syedimran18/spring-helloworld'//, branch: 'master'
             }
         }
 
